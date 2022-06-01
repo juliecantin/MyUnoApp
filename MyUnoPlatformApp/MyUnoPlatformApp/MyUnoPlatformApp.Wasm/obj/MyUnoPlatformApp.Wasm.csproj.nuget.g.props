@@ -19,6 +19,7 @@
     <Import Project="$(NuGetPackageRoot)uno.ui.webassembly\4.3.6\build\Uno.UI.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)uno.ui.webassembly\4.3.6\build\Uno.UI.WebAssembly.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_XamlMerge_Task Condition=" '$(PkgUno_XamlMerge_Task)' == '' ">C:\Users\julie.cantin\.nuget\packages\uno.xamlmerge.task\1.1.0-dev.12</PkgUno_XamlMerge_Task>
     <PkgUno_Wasm_Bootstrap_DevServer Condition=" '$(PkgUno_Wasm_Bootstrap_DevServer)' == '' ">C:\Users\julie.cantin\.nuget\packages\uno.wasm.bootstrap.devserver\3.3.1</PkgUno_Wasm_Bootstrap_DevServer>
     <PkgUno_Wasm_Bootstrap Condition=" '$(PkgUno_Wasm_Bootstrap)' == '' ">C:\Users\julie.cantin\.nuget\packages\uno.wasm.bootstrap\3.3.1</PkgUno_Wasm_Bootstrap>
     <PkgUno_UI Condition=" '$(PkgUno_UI)' == '' ">C:\Users\julie.cantin\.nuget\packages\uno.ui\4.3.6</PkgUno_UI>

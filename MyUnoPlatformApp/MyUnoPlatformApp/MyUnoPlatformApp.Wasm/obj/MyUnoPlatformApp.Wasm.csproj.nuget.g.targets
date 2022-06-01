@@ -8,5 +8,7 @@
     <Import Project="$(NuGetPackageRoot)uno.ui.runtime.webassembly\4.3.6\buildTransitive\Uno.UI.Runtime.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)uno.ui.runtime.webassembly\4.3.6\buildTransitive\Uno.UI.Runtime.WebAssembly.targets')" />
     <Import Project="$(NuGetPackageRoot)uno.ui.webassembly\4.3.6\build\Uno.UI.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)uno.ui.webassembly\4.3.6\build\Uno.UI.WebAssembly.targets')" />
     <Import Project="$(NuGetPackageRoot)uno.ui.remotecontrol\4.3.6\buildTransitive\Uno.UI.RemoteControl.targets" Condition="Exists('$(NuGetPackageRoot)uno.ui.remotecontrol\4.3.6\buildTransitive\Uno.UI.RemoteControl.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.ui.lottie\4.2.0-dev.622\buildTransitive\Uno.UI.Lottie.targets" Condition="Exists('$(NuGetPackageRoot)uno.ui.lottie\4.2.0-dev.622\buildTransitive\Uno.UI.Lottie.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.material\2.0.0\build\Uno.Material.targets" Condition="Exists('$(NuGetPackageRoot)uno.material\2.0.0\build\Uno.Material.targets')" />
   </ImportGroup>
 </Project>

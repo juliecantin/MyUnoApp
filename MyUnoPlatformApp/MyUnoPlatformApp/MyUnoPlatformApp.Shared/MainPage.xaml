@@ -9,14 +9,16 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="100" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         
         <TextBlock Text="Title" />
 
         <ComboBox Style="{StaticResource MaterialComboBoxStyle}"
-                  ItemsSource="abc">
+                  SelectedItem="a"
+                  ItemsSource="abc"
+                  Grid.Row="1">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
                     <ContentControl Content="{Binding}"
