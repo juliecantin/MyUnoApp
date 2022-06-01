@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LD156</Machine>
+    <WindowsUser>julie.cantin</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>d385ff03-8c0c-47f5-be9b-18f42c2294bb</PackageIdentityName>
+    <PackageIdentityPublisher>CN=julie.cantin</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E967D06C526E46ED84537F8917656F87374EAD92C2E7E48A330804E65C11619F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e4f05340-906d-4d70-af75-25bf1e00caa7_1.0.0.0_x64__791q32nkf83km</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e4f05340-906d-4d70-af75-25bf1e00caa7_791q32nkf83km!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e4f05340-906d-4d70-af75-25bf1e00caa7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=julie.cantin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-06-01T19:52:06.846</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\bin\x64\Debug\MyUnoPlatformApp.exe">
+      <PackagePath>entrypoint\MyUnoPlatformApp.exe</PackagePath>
+      <Modified>2022-06-01T19:52:05.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\commonservicelocator\2.0.5\lib\netstandard2.0\CommonServiceLocator.dll">
+      <PackagePath>CommonServiceLocator.dll</PackagePath>
+      <Modified>2019-11-07T02:33:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+      <Modified>2020-10-19T18:40:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.extensions.dependencyinjection\5.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2020-10-19T18:48:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2020-10-19T18:48:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.extensions.logging\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2020-10-19T18:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.extensions.logging.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2020-10-19T18:48:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.extensions.logging.debug\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Debug.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
+      <Modified>2020-10-19T18:49:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.extensions.options\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2020-10-19T18:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.extensions.primitives\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2020-10-19T18:48:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-11-20T08:51:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\system.diagnostics.diagnosticsource\5.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2020-10-19T18:38:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\system.runtime.compilerservices.unsafe\5.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2020-10-19T18:46:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\system.text.encodings.web\4.7.1\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+      <Modified>2020-04-14T22:39:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\system.text.json\4.7.2\lib\netstandard2.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2020-04-14T22:39:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.core.extensions.logging.singleton\4.0.0-dev.7\lib\uap10.0.17763\Uno.Core.Extensions.Logging.Singleton.dll">
+      <PackagePath>Uno.Core.Extensions.Logging.Singleton.dll</PackagePath>
+      <Modified>2021-11-10T15:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.diagnostics.eventing\2.0.1\lib\netstandard2.0\Uno.Diagnostics.Eventing.dll">
+      <PackagePath>Uno.Diagnostics.Eventing.dll</PackagePath>
+      <Modified>2021-11-25T03:50:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.foundation.logging\4.3.6\lib\netstandard2.0\Uno.Foundation.Logging.dll">
+      <PackagePath>Uno.Foundation.Logging.dll</PackagePath>
+      <Modified>2022-05-22T20:45:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.material\2.0.0\lib\uap10.0.18362\Uno.Material.dll">
+      <PackagePath>Uno.Material.dll</PackagePath>
+      <Modified>2022-05-23T19:39:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.ui\4.3.6\lib\UAP\Uno.UI.Toolkit.dll">
+      <PackagePath>Uno.UI.Toolkit.dll</PackagePath>
+      <Modified>2022-05-22T20:46:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\win2d.uwp\1.25.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2020-04-02T19:46:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.toolkit.uwp.ui.lottie\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Lottie.winmd">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Lottie.winmd</PackagePath>
+      <Modified>2020-06-12T20:51:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2020-04-02T19:44:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T08:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.material\2.0.0\lib\uap10.0.18362\Uno.Material\Uno.Material.xr.xml">
+      <PackagePath>Uno.Material\Uno.Material.xr.xml</PackagePath>
+      <Modified>2022-05-23T19:39:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.ui\4.3.6\lib\UAP\Uno.UI.Toolkit\Uno.UI.Toolkit.xr.xml">
+      <PackagePath>Uno.UI.Toolkit\Uno.UI.Toolkit.xr.xml</PackagePath>
+      <Modified>2022-05-22T20:23:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.material\2.0.0\lib\uap10.0.18362\Uno.Material\Assets\MaterialDeterminate.json">
+      <PackagePath>Uno.Material\Assets\MaterialDeterminate.json</PackagePath>
+      <Modified>2022-05-23T19:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.material\2.0.0\lib\uap10.0.18362\Uno.Material\Assets\MaterialIndeterminate.json">
+      <PackagePath>Uno.Material\Assets\MaterialIndeterminate.json</PackagePath>
+      <Modified>2022-05-23T19:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\uno.material\2.0.0\lib\uap10.0.18362\Uno.Material\build\Uno.Material.targets">
+      <PackagePath>Uno.Material\build\Uno.Material.targets</PackagePath>
+      <Modified>2022-05-23T19:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-05-26T19:16:23.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-26T19:16:23.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-26T19:16:23.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-26T19:16:23.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-26T19:16:23.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-26T19:16:23.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2022-05-26T19:16:23.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.Shared\Assets\SharedAssets.md">
+      <PackagePath>Assets\SharedAssets.md</PackagePath>
+      <Modified>2022-05-26T19:16:23.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\bin\x64\Debug\MyUnoPlatformApp.xr.xml">
+      <PackagePath>MyUnoPlatformApp.xr.xml</PackagePath>
+      <Modified>2022-06-01T19:52:05.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2022-06-01T19:52:05.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2022-06-01T19:52:05.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2020-12-02T09:31:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-02T06:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-06-01T19:48:31.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\bin\x64\Debug\Core\MyUnoPlatformApp.exe">
+      <PackagePath>MyUnoPlatformApp.exe</PackagePath>
+      <Modified>2022-06-01T19:52:06.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2021-08-19T07:38:36.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.6.appx">
+      <Name>Microsoft.UI.Xaml.2.6</Name>
+      <Version>2.62108.18004.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.6, MinVersion = 2.62108.18004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.6.appx">
+      <Name>Microsoft.UI.Xaml.2.6</Name>
+      <Version>2.62108.18004.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.6, MinVersion = 2.62108.18004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.6.appx">
+      <Name>Microsoft.UI.Xaml.2.6</Name>
+      <Version>2.62108.18004.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.6, MinVersion = 2.62108.18004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.6.appx">
+      <Name>Microsoft.UI.Xaml.2.6</Name>
+      <Version>2.62108.18004.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.6, MinVersion = 2.62108.18004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.6.appx">
+      <Name>Microsoft.UI.Xaml.2.6</Name>
+      <Version>2.62108.18004.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.6, MinVersion = 2.62108.18004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\julie.cantin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\julie.cantin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

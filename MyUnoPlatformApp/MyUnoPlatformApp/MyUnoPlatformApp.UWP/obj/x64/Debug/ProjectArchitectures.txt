@@ -1,0 +1,1 @@
+C:\p\MyUno\MyUnoPlatformApp\MyUnoPlatformApp\MyUnoPlatformApp.UWP\MyUnoPlatformApp.UWP.csproj;x64

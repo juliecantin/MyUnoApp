@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.sourcegenerationtasks\4.0.2\build\netstandard1.0\Uno.SourceGenerationTasks.targets" Condition="Exists('$(NuGetPackageRoot)uno.sourcegenerationtasks\4.0.2\build\netstandard1.0\Uno.SourceGenerationTasks.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.ui\4.3.6\buildTransitive\xamarinios10\Uno.UI.targets" Condition="Exists('$(NuGetPackageRoot)uno.ui\4.3.6\buildTransitive\xamarinios10\Uno.UI.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.ui.remotecontrol\4.3.6\buildTransitive\Uno.UI.RemoteControl.targets" Condition="Exists('$(NuGetPackageRoot)uno.ui.remotecontrol\4.3.6\buildTransitive\Uno.UI.RemoteControl.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.ui.lottie\4.2.0-dev.622\buildTransitive\Uno.UI.Lottie.targets" Condition="Exists('$(NuGetPackageRoot)uno.ui.lottie\4.2.0-dev.622\buildTransitive\Uno.UI.Lottie.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.material\2.0.0\build\Uno.Material.targets" Condition="Exists('$(NuGetPackageRoot)uno.material\2.0.0\build\Uno.Material.targets')" />
+  </ImportGroup>
+</Project>
